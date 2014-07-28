@@ -96,9 +96,9 @@ All commands related to the plot system start with a `p`. Many commands do somet
 	* **pmap [name]**: Warp to someone's plot's representation on the plot map.
 	* **psearch [name]**: Search for a member's plot.
 	* **pallow [name]**: Allow someone to build on your plot.
-	* **pallow ***: Allow everyone to build on your plot.
+	* **pallow**: Allow everyone to build on your plot.
 	* **punallow [name]**: Take away someone's right to build on your plot.
-	* **punallow ***: Take away everyone's right to build on your plot.
+	* **punallow**: Take away everyone's right to build on your plot.
 * **Administrative Commands**
 	* **preserve**: Reserve the plot you're standing on, so that it can't be claimed.
 	* **pclaimas [name]**: Claim the plot you're standing on as someone else.
@@ -106,4 +106,8 @@ All commands related to the plot system start with a `p`. Many commands do somet
 	* **pgive [name] [amount]**: By default, players can claim one plot. This command gives the player more plots to claim.
 	* **ptake [name] [amount]**: Remove from the number of plots a player is allowed to claim.
 
-~TODO
+###TODO
+* Organise whitespace
+* Integrate Config
+* Persistant Data in all formats
+* Uniform documentation/auto docs creation  
